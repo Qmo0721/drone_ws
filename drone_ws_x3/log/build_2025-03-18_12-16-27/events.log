@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.001392] (drone_pkg) JobQueued: {'identifier': 'drone_pkg', 'dependencies': OrderedDict()}
+[0.002907] (drone_pkg) JobStarted: {'identifier': 'drone_pkg'}
+[0.101459] (-) TimerEvent: {}
+[0.202694] (-) TimerEvent: {}
+[0.304415] (-) TimerEvent: {}
+[0.405775] (-) TimerEvent: {}
+[0.506729] (-) TimerEvent: {}
+[0.607662] (-) TimerEvent: {}
+[0.708567] (-) TimerEvent: {}
+[0.809436] (-) TimerEvent: {}
+[0.910300] (-) TimerEvent: {}
+[1.011164] (-) TimerEvent: {}
+[1.112007] (-) TimerEvent: {}
+[1.212866] (-) TimerEvent: {}
+[1.313738] (-) TimerEvent: {}
+[1.414683] (-) TimerEvent: {}
+[1.515534] (-) TimerEvent: {}
+[1.616394] (-) TimerEvent: {}
+[1.717377] (-) TimerEvent: {}
+[1.822332] (-) TimerEvent: {}
+[1.924097] (-) TimerEvent: {}
+[2.025154] (-) TimerEvent: {}
+[2.126105] (-) TimerEvent: {}
+[2.227111] (-) TimerEvent: {}
+[2.328054] (-) TimerEvent: {}
+[2.428965] (-) TimerEvent: {}
+[2.529804] (-) TimerEvent: {}
+[2.630749] (-) TimerEvent: {}
+[2.731622] (-) TimerEvent: {}
+[2.832466] (-) TimerEvent: {}
+[2.933330] (-) TimerEvent: {}
+[3.034233] (-) TimerEvent: {}
+[3.135125] (-) TimerEvent: {}
+[3.235970] (-) TimerEvent: {}
+[3.336831] (-) TimerEvent: {}
+[3.437731] (-) TimerEvent: {}
+[3.538672] (-) TimerEvent: {}
+[3.639598] (-) TimerEvent: {}
+[3.740585] (-) TimerEvent: {}
+[3.841490] (-) TimerEvent: {}
+[3.942418] (-) TimerEvent: {}
+[4.043364] (-) TimerEvent: {}
+[4.144450] (-) TimerEvent: {}
+[4.203190] (drone_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_pkg', 'build', '--build-base', '/home/sunrise/drone_ws/build/drone_pkg/build', 'install', '--record', '/home/sunrise/drone_ws/build/drone_pkg/install.log', '--install-scripts', '$base/lib/drone_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/drone_ws/src/drone_pkg', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/sunrise/drone_ws/install:/opt/tros', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XAUTHORITY': '/home/sunrise/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/bin/bash', 'AMENT_PREFIX_PATH': '/home/sunrise/drone_ws/install/drone_pkg:/opt/tros', 'SHELL': '/bin/bash', 'SUDO_USER': 'sunrise', 'PWD': '/home/sunrise/drone_ws/build/drone_pkg', 'PYTHONPATH': '/home/sunrise/drone_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages:/home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/tros'}, 'shell': False}
+[4.244658] (-) TimerEvent: {}
+[4.345700] (-) TimerEvent: {}
+[4.446893] (-) TimerEvent: {}
+[4.547768] (-) TimerEvent: {}
+[4.648634] (-) TimerEvent: {}
+[4.749645] (-) TimerEvent: {}
+[4.850658] (-) TimerEvent: {}
+[4.951548] (-) TimerEvent: {}
+[5.052419] (-) TimerEvent: {}
+[5.153286] (-) TimerEvent: {}
+[5.254192] (-) TimerEvent: {}
+[5.355079] (-) TimerEvent: {}
+[5.455995] (-) TimerEvent: {}
+[5.556914] (-) TimerEvent: {}
+[5.648091] (drone_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.652268] (drone_pkg) StdoutLine: {'line': b'writing ../../build/drone_pkg/drone_pkg.egg-info/PKG-INFO\n'}
+[5.653781] (drone_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_pkg/drone_pkg.egg-info/dependency_links.txt\n'}
+[5.655278] (drone_pkg) StdoutLine: {'line': b'writing entry points to ../../build/drone_pkg/drone_pkg.egg-info/entry_points.txt\n'}
+[5.657096] (-) TimerEvent: {}
+[5.658023] (drone_pkg) StdoutLine: {'line': b'writing requirements to ../../build/drone_pkg/drone_pkg.egg-info/requires.txt\n'}
+[5.658940] (drone_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/drone_pkg/drone_pkg.egg-info/top_level.txt\n'}
+[5.757302] (-) TimerEvent: {}
+[5.858258] (-) TimerEvent: {}
+[5.930460] (drone_pkg) StdoutLine: {'line': b"reading manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'\n"}
+[5.936839] (drone_pkg) StdoutLine: {'line': b"writing manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'\n"}
+[5.938020] (drone_pkg) StdoutLine: {'line': b'running build\n'}
+[5.938835] (drone_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.939752] (drone_pkg) StdoutLine: {'line': b'copying drone_pkg/view.py -> /home/sunrise/drone_ws/build/drone_pkg/build/lib/drone_pkg\n'}
+[5.940658] (drone_pkg) StdoutLine: {'line': b'copying drone_pkg/control1.py -> /home/sunrise/drone_ws/build/drone_pkg/build/lib/drone_pkg\n'}
+[5.942933] (drone_pkg) StdoutLine: {'line': b'running install\n'}
+[5.947735] (drone_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.953827] (drone_pkg) StdoutLine: {'line': b'copying /home/sunrise/drone_ws/build/drone_pkg/build/lib/drone_pkg/view.py -> /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg\n'}
+[5.954909] (drone_pkg) StdoutLine: {'line': b'copying /home/sunrise/drone_ws/build/drone_pkg/build/lib/drone_pkg/control1.py -> /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg\n'}
+[5.958389] (-) TimerEvent: {}
+[5.959230] (drone_pkg) StdoutLine: {'line': b'byte-compiling /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg/view.py to view.cpython-38.pyc\n'}
+[5.969102] (drone_pkg) StdoutLine: {'line': b'byte-compiling /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg/control1.py to control1.cpython-38.pyc\n'}
+[5.973828] (drone_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.974857] (drone_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.984905] (drone_pkg) StdoutLine: {'line': b"removing '/home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.986866] (drone_pkg) StdoutLine: {'line': b'Copying ../../build/drone_pkg/drone_pkg.egg-info to /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg-0.0.0-py3.8.egg-info\n'}
+[5.992868] (drone_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.058582] (-) TimerEvent: {}
+[6.108048] (drone_pkg) StdoutLine: {'line': b'Installing control0 script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg\n'}
+[6.109379] (drone_pkg) StdoutLine: {'line': b'Installing control1 script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg\n'}
+[6.110533] (drone_pkg) StdoutLine: {'line': b'Installing control_bt script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg\n'}
+[6.111498] (drone_pkg) StdoutLine: {'line': b'Installing control_can script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg\n'}
+[6.112462] (drone_pkg) StdoutLine: {'line': b'Installing view script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg\n'}
+[6.114496] (drone_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/drone_ws/build/drone_pkg/install.log'\n"}
+[6.158817] (-) TimerEvent: {}
+[6.259791] (-) TimerEvent: {}
+[6.280790] (drone_pkg) CommandEnded: {'returncode': 0}
+[6.353655] (drone_pkg) JobEnded: {'identifier': 'drone_pkg', 'rc': 0}
+[6.357508] (-) EventReactorShutdown: {}

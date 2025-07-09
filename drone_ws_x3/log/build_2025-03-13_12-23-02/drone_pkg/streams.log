@@ -1,0 +1,43 @@
+[3.247s] Invoking command in '/home/shengzi/drone_ws/src/drone_pkg': PYTHONPATH=/home/shengzi/drone_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_pkg build --build-base /home/shengzi/drone_ws/build/drone_pkg/build install --record /home/shengzi/drone_ws/build/drone_pkg/install.log --install-scripts $base/lib/drone_pkg --single-version-externally-managed install_data
+[4.464s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.465s]   warnings.warn(
+[4.507s] running egg_info
+[4.509s] creating ../../build/drone_pkg/drone_pkg.egg-info
+[4.510s] writing ../../build/drone_pkg/drone_pkg.egg-info/PKG-INFO
+[4.511s] writing dependency_links to ../../build/drone_pkg/drone_pkg.egg-info/dependency_links.txt
+[4.512s] writing entry points to ../../build/drone_pkg/drone_pkg.egg-info/entry_points.txt
+[4.513s] writing requirements to ../../build/drone_pkg/drone_pkg.egg-info/requires.txt
+[4.513s] writing top-level names to ../../build/drone_pkg/drone_pkg.egg-info/top_level.txt
+[4.514s] writing manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+[4.522s] reading manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+[4.526s] writing manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+[4.527s] running build
+[4.527s] running build_py
+[4.528s] creating /home/shengzi/drone_ws/build/drone_pkg/build
+[4.529s] creating /home/shengzi/drone_ws/build/drone_pkg/build/lib
+[4.529s] creating /home/shengzi/drone_ws/build/drone_pkg/build/lib/drone_pkg
+[4.530s] copying drone_pkg/__init__.py -> /home/shengzi/drone_ws/build/drone_pkg/build/lib/drone_pkg
+[4.530s] copying drone_pkg/control.py -> /home/shengzi/drone_ws/build/drone_pkg/build/lib/drone_pkg
+[4.531s] copying drone_pkg/view.py -> /home/shengzi/drone_ws/build/drone_pkg/build/lib/drone_pkg
+[4.532s] running install
+[4.533s] running install_lib
+[4.537s] creating /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg
+[4.537s] copying /home/shengzi/drone_ws/build/drone_pkg/build/lib/drone_pkg/__init__.py -> /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg
+[4.538s] copying /home/shengzi/drone_ws/build/drone_pkg/build/lib/drone_pkg/control.py -> /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg
+[4.539s] copying /home/shengzi/drone_ws/build/drone_pkg/build/lib/drone_pkg/view.py -> /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg
+[4.542s] byte-compiling /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg/__init__.py to __init__.cpython-310.pyc
+[4.543s] byte-compiling /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg/control.py to control.cpython-310.pyc
+[4.546s] byte-compiling /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg/view.py to view.cpython-310.pyc
+[4.548s] running install_data
+[4.549s] creating /home/shengzi/drone_ws/install/drone_pkg/share/ament_index
+[4.550s] creating /home/shengzi/drone_ws/install/drone_pkg/share/ament_index/resource_index
+[4.550s] creating /home/shengzi/drone_ws/install/drone_pkg/share/ament_index/resource_index/packages
+[4.551s] copying resource/drone_pkg -> /home/shengzi/drone_ws/install/drone_pkg/share/ament_index/resource_index/packages
+[4.551s] copying package.xml -> /home/shengzi/drone_ws/install/drone_pkg/share/drone_pkg
+[4.551s] running install_egg_info
+[4.560s] Copying ../../build/drone_pkg/drone_pkg.egg-info to /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg-0.0.0-py3.10.egg-info
+[4.565s] running install_scripts
+[4.658s] Installing control script to /home/shengzi/drone_ws/install/drone_pkg/lib/drone_pkg
+[4.659s] Installing view script to /home/shengzi/drone_ws/install/drone_pkg/lib/drone_pkg
+[4.661s] writing list of installed files to '/home/shengzi/drone_ws/build/drone_pkg/install.log'
+[4.792s] Invoked command in '/home/shengzi/drone_ws/src/drone_pkg' returned '0': PYTHONPATH=/home/shengzi/drone_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_pkg build --build-base /home/shengzi/drone_ws/build/drone_pkg/build install --record /home/shengzi/drone_ws/build/drone_pkg/install.log --install-scripts $base/lib/drone_pkg --single-version-externally-managed install_data

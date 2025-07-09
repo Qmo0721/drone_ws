@@ -1,0 +1,27 @@
+[1.211s] Invoking command in '/home/richouu/drone_ws/src/drone_pkg': PYTHONPATH=/home/richouu/drone_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/richouu/drone_ws/install/drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_pkg build --build-base /home/richouu/drone_ws/build/drone_pkg/build install --record /home/richouu/drone_ws/build/drone_pkg/install.log --install-scripts $base/lib/drone_pkg --single-version-externally-managed install_data
+[1.641s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.641s]   warnings.warn(
+[1.662s] running egg_info
+[1.668s] writing ../../build/drone_pkg/drone_pkg.egg-info/PKG-INFO
+[1.670s] writing dependency_links to ../../build/drone_pkg/drone_pkg.egg-info/dependency_links.txt
+[1.672s] writing entry points to ../../build/drone_pkg/drone_pkg.egg-info/entry_points.txt
+[1.674s] writing requirements to ../../build/drone_pkg/drone_pkg.egg-info/requires.txt
+[1.674s] writing top-level names to ../../build/drone_pkg/drone_pkg.egg-info/top_level.txt
+[1.679s] reading manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+[1.680s] writing manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+[1.681s] running build
+[1.682s] running build_py
+[1.682s] copying drone_pkg/control.py -> /home/richouu/drone_ws/build/drone_pkg/build/lib/drone_pkg
+[1.682s] running install
+[1.684s] running install_lib
+[1.685s] copying /home/richouu/drone_ws/build/drone_pkg/build/lib/drone_pkg/control.py -> /home/richouu/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg
+[1.686s] byte-compiling /home/richouu/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg/control.py to control.cpython-310.pyc
+[1.688s] running install_data
+[1.688s] running install_egg_info
+[1.691s] removing '/home/richouu/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.692s] Copying ../../build/drone_pkg/drone_pkg.egg-info to /home/richouu/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg-0.0.0-py3.10.egg-info
+[1.694s] running install_scripts
+[1.728s] Installing camera script to /home/richouu/drone_ws/install/drone_pkg/lib/drone_pkg
+[1.729s] Installing control script to /home/richouu/drone_ws/install/drone_pkg/lib/drone_pkg
+[1.730s] writing list of installed files to '/home/richouu/drone_ws/build/drone_pkg/install.log'
+[1.772s] Invoked command in '/home/richouu/drone_ws/src/drone_pkg' returned '0': PYTHONPATH=/home/richouu/drone_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/richouu/drone_ws/install/drone_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_pkg build --build-base /home/richouu/drone_ws/build/drone_pkg/build install --record /home/richouu/drone_ws/build/drone_pkg/install.log --install-scripts $base/lib/drone_pkg --single-version-externally-managed install_data

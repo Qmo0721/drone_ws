@@ -1,0 +1,8 @@
+[console_scripts]
+control0 = drone_pkg.control0:main
+control1 = drone_pkg.control1:main
+control_bt = drone_pkg.control_bt:main
+control_can = drone_pkg.control_can:main
+view0 = drone_pkg.view0:main
+view1 = drone_pkg.view1:main
+

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/drone_pkg/drone_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone_pkg/drone_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/drone_pkg/drone_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/drone_pkg/drone_pkg.egg-info/requires.txt
+writing top-level names to ../../build/drone_pkg/drone_pkg.egg-info/top_level.txt
+reading manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying drone_pkg/control1.py -> /home/sunrise/drone_ws/build/drone_pkg/build/lib/drone_pkg
+running install
+running install_lib
+copying /home/sunrise/drone_ws/build/drone_pkg/build/lib/drone_pkg/control1.py -> /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg
+byte-compiling /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg/control1.py to control1.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/drone_pkg/drone_pkg.egg-info to /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing control0 script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+Installing control1 script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+Installing control_bt script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+Installing control_can script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+Installing view script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+writing list of installed files to '/home/sunrise/drone_ws/build/drone_pkg/install.log'

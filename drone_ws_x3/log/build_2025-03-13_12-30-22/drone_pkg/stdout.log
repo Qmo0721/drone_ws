@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/drone_pkg/drone_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone_pkg/drone_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/drone_pkg/drone_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/drone_pkg/drone_pkg.egg-info/requires.txt
+writing top-level names to ../../build/drone_pkg/drone_pkg.egg-info/top_level.txt
+reading manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying drone_pkg/control.py -> /home/shengzi/drone_ws/build/drone_pkg/build/lib/drone_pkg
+running install
+running install_lib
+copying /home/shengzi/drone_ws/build/drone_pkg/build/lib/drone_pkg/control.py -> /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg
+byte-compiling /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg/control.py to control.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/drone_pkg/drone_pkg.egg-info to /home/shengzi/drone_ws/install/drone_pkg/lib/python3.10/site-packages/drone_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control script to /home/shengzi/drone_ws/install/drone_pkg/lib/drone_pkg
+Installing view script to /home/shengzi/drone_ws/install/drone_pkg/lib/drone_pkg
+writing list of installed files to '/home/shengzi/drone_ws/build/drone_pkg/install.log'

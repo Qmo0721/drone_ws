@@ -1,0 +1,4 @@
+[console_scripts]
+camera = drone_pkg.camera:main
+control = drone_pkg.control:main
+

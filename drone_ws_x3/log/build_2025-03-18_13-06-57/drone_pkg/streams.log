@@ -1,0 +1,32 @@
+[4.366s] Invoking command in '/home/sunrise/drone_ws/src/drone_pkg': PYTHONPATH=/home/sunrise/drone_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_pkg build --build-base /home/sunrise/drone_ws/build/drone_pkg/build install --record /home/sunrise/drone_ws/build/drone_pkg/install.log --install-scripts $base/lib/drone_pkg --single-version-externally-managed install_data
+[5.811s] running egg_info
+[5.815s] writing ../../build/drone_pkg/drone_pkg.egg-info/PKG-INFO
+[5.816s] writing dependency_links to ../../build/drone_pkg/drone_pkg.egg-info/dependency_links.txt
+[5.818s] writing entry points to ../../build/drone_pkg/drone_pkg.egg-info/entry_points.txt
+[5.820s] writing requirements to ../../build/drone_pkg/drone_pkg.egg-info/requires.txt
+[5.821s] writing top-level names to ../../build/drone_pkg/drone_pkg.egg-info/top_level.txt
+[6.094s] reading manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+[6.102s] writing manifest file '../../build/drone_pkg/drone_pkg.egg-info/SOURCES.txt'
+[6.103s] running build
+[6.104s] running build_py
+[6.105s] copying drone_pkg/control1.py -> /home/sunrise/drone_ws/build/drone_pkg/build/lib/drone_pkg
+[6.106s] copying drone_pkg/control0.py -> /home/sunrise/drone_ws/build/drone_pkg/build/lib/drone_pkg
+[6.108s] running install
+[6.113s] running install_lib
+[6.119s] copying /home/sunrise/drone_ws/build/drone_pkg/build/lib/drone_pkg/control1.py -> /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg
+[6.120s] copying /home/sunrise/drone_ws/build/drone_pkg/build/lib/drone_pkg/control0.py -> /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg
+[6.124s] byte-compiling /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg/control1.py to control1.cpython-38.pyc
+[6.136s] byte-compiling /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg/control0.py to control0.cpython-38.pyc
+[6.141s] running install_data
+[6.142s] running install_egg_info
+[6.152s] removing '/home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[6.154s] Copying ../../build/drone_pkg/drone_pkg.egg-info to /home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages/drone_pkg-0.0.0-py3.8.egg-info
+[6.160s] running install_scripts
+[6.275s] Installing control0 script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+[6.277s] Installing control1 script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+[6.278s] Installing control_bt script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+[6.280s] Installing control_can script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+[6.281s] Installing view0 script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+[6.282s] Installing view1 script to /home/sunrise/drone_ws/install/drone_pkg/lib/drone_pkg
+[6.284s] writing list of installed files to '/home/sunrise/drone_ws/build/drone_pkg/install.log'
+[6.446s] Invoked command in '/home/sunrise/drone_ws/src/drone_pkg' returned '0': PYTHONPATH=/home/sunrise/drone_ws/build/drone_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/drone_ws/install/drone_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_pkg build --build-base /home/sunrise/drone_ws/build/drone_pkg/build install --record /home/sunrise/drone_ws/build/drone_pkg/install.log --install-scripts $base/lib/drone_pkg --single-version-externally-managed install_data
