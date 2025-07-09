@@ -20,7 +20,7 @@ def uav_camera():
         img_msg = cv_bridge.cv2_to_compressed_imgmsg(img, "jpeg")
         img_publisher.publish(img_msg)
 def uav_control(msg):
-    print(msg.data)
+    """print(msg.data)
     if msg.data == "takeoff":
         tello.takeoff()
     elif msg.data == "land":
@@ -44,7 +44,7 @@ def uav_control(msg):
     elif msg.data == "stop":
         tello.land()
         time.sleep(5)
-        exit(0)
+        exit(0)"""
 
 def main(args=None):
     rclpy.init(args=args)

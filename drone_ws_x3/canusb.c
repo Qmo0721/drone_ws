@@ -105,7 +105,7 @@ static int generate_checksum(const unsigned char *data, int data_len)
 static int frame_send(int tty_fd, const unsigned char *frame, int frame_len)
 {
   
-  int result, i;
+  /*int result, i;
 
   if (print_traffic) {
     printf(">>> ");
@@ -127,12 +127,12 @@ static int frame_send(int tty_fd, const unsigned char *frame, int frame_len)
     return -1;
   }
 
-  return frame_len;
+  return frame_len;*/
 }
 
 static int command_settings(int tty_fd, CANUSB_SPEED speed, CANUSB_MODE mode, CANUSB_FRAME frame)
 {
-  int cmd_frame_len;
+  /*int cmd_frame_len;
   unsigned char cmd_frame[20];
 
   cmd_frame_len = 0;
@@ -141,14 +141,14 @@ static int command_settings(int tty_fd, CANUSB_SPEED speed, CANUSB_MODE mode, CA
   cmd_frame[cmd_frame_len++] = 0x12;
   cmd_frame[cmd_frame_len++] = speed;
   cmd_frame[cmd_frame_len++] = frame;
-  cmd_frame[cmd_frame_len++] = 0; /* Filter ID not handled. */
-  cmd_frame[cmd_frame_len++] = 0; /* Filter ID not handled. */
-  cmd_frame[cmd_frame_len++] = 0; /* Filter ID not handled. */
-  cmd_frame[cmd_frame_len++] = 0; /* Filter ID not handled. */
-  cmd_frame[cmd_frame_len++] = 0; /* Mask ID not handled. */
-  cmd_frame[cmd_frame_len++] = 0; /* Mask ID not handled. */
-  cmd_frame[cmd_frame_len++] = 0; /* Mask ID not handled. */
-  cmd_frame[cmd_frame_len++] = 0; /* Mask ID not handled. */
+  cmd_frame[cmd_frame_len++] = 0; // Filter ID not handled. 
+  cmd_frame[cmd_frame_len++] = 0; // Filter ID not handled. 
+  cmd_frame[cmd_frame_len++] = 0; // Filter ID not handled. 
+  cmd_frame[cmd_frame_len++] = 0; // Filter ID not handled. 
+  cmd_frame[cmd_frame_len++] = 0; // Mask ID not handled. 
+  cmd_frame[cmd_frame_len++] = 0; // Mask ID not handled. 
+  cmd_frame[cmd_frame_len++] = 0; // Mask ID not handled. 
+  cmd_frame[cmd_frame_len++] = 0; // Mask ID not handled. 
   cmd_frame[cmd_frame_len++] = mode;
   cmd_frame[cmd_frame_len++] = 0x01;
   cmd_frame[cmd_frame_len++] = 0;
@@ -161,7 +161,7 @@ static int command_settings(int tty_fd, CANUSB_SPEED speed, CANUSB_MODE mode, CA
     return -1;
   }
 
-  return 0;
+  return 0;*/
 }
 
 
@@ -257,7 +257,7 @@ static int convert_from_hex(const char *hex_string, unsigned char *bin_string, i
 
 
 static int inject_data_frame(int tty_fd, const char *hex_id, const char *hex_data)
-{
+{/*
   int data_len;
   unsigned char binary_data[8];
   unsigned char binary_id_lsb = 0, binary_id_msb = 0;
@@ -268,7 +268,7 @@ static int inject_data_frame(int tty_fd, const char *hex_id, const char *hex_dat
   gap_ts.tv_sec = inject_sleep_gap / 1000;
   gap_ts.tv_nsec = (long)(((long long)(inject_sleep_gap * 1000000)) % 1000000000LL);
 
-  /* Set seed value for pseudo random numbers. */
+  //Set seed value for pseudo random numbers.
   gettimeofday(&now, NULL);
   srandom(now.tv_usec);
 
@@ -301,7 +301,7 @@ static int inject_data_frame(int tty_fd, const char *hex_id, const char *hex_dat
       nanosleep(&gap_ts, NULL);
 
   if (terminate_after && (--terminate_after == 0))
-    program_running = 0;
+    program_running = 0;*/
 
   /*if (inject_payload_mode == CANUSB_INJECT_PAYLOAD_MODE_RANDOM) {
     int i;

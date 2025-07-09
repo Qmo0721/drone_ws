@@ -46,10 +46,10 @@ target_pos = [[75, 75], [-75, 75], [-75, -75], [75, -75]] #4 drones
         img_msg = cv_bridge.cv2_to_compressed_imgmsg(img, "jpeg")
         img_publisher.publish(img_msg)"""    
 def uav_control():
-    global tello_takeoff, target_pos
-    """for tello in tello_hontai:
+    """global tello_takeoff, target_pos
+    for tello in tello_hontai:
         tello.enable_mission_pads()
-        tello.set_mission_pad_detection_direction(0)"""
+        tello.set_mission_pad_detection_direction(0)
     for tello in swarm:
         tello.enable_mission_pads()
         tello.set_mission_pad_detection_direction(0)
@@ -91,7 +91,7 @@ def uav_control():
             swarm.parallel(lambda i, tello: tello.go_xyz_speed_mid(target_pos[(i+1)%4][0], target_pos[(i+1)%4][1], 80, 50, 12))
             swarm.parallel(lambda i, tello: tello.go_xyz_speed_mid(target_pos[(i+2)%4][0], target_pos[(i+2)%4][1], 80, 50, 12))
             swarm.parallel(lambda i, tello: tello.go_xyz_speed_mid(target_pos[(i+3)%4][0], target_pos[(i+3)%4][1], 80, 50, 12))
-            #swarm.parallel(lambda i, tello: tello.go_xyz_speed_mid(target_pos[i+4][0], target_pos[i+4][1], 80, 50, 12))
+            #swarm.parallel(lambda i, tello: tello.go_xyz_speed_mid(target_pos[i+4][0], target_pos[i+4][1], 80, 50, 12))"""
 
 def main(args=None):
     rclpy.init(args=args)

@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 class CameraSubscriber(Node):
-    def __init__(self):
+    """def __init__(self):
         super().__init__('view')
         self.subscriber = self.create_subscription(CompressedImage, 'camera0', self.camera_callback, 1)
         self.cv_bridge = CvBridge()
@@ -17,7 +17,7 @@ class CameraSubscriber(Node):
         img = self.cv_bridge.compressed_imgmsg_to_cv2(msg)
         img = cv2.resize(img, (720, 480))
         cv2.imshow("Camera", img)
-        cv2.waitKey(1)
+        cv2.waitKey(1)"""
     
 def main(args=None):
     rclpy.init(args=args)

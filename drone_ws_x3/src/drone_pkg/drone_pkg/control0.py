@@ -44,7 +44,7 @@ def uav_camera():
         img_msg = cv_bridge.cv2_to_compressed_imgmsg(img, "jpeg")
         img_publisher.publish(img_msg)
 def uav_control():
-    #cv_bridge = CvBridge()
+    """#cv_bridge = CvBridge()
     #img_publisher = node.create_publisher(CompressedImage, 'camera0', 10)
     ctr_msg = String()
     ctr_publisher = node.create_publisher(String, 'control', 1)
@@ -107,7 +107,7 @@ def uav_control():
                 tello.land()
                 time.sleep(5)
                 exit(0)
-            #ctr_publisher.publish(ctr_msg)
+            #ctr_publisher.publish(ctr_msg)"""
 
 def main(args=None):
     #global bluetooth

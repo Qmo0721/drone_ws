@@ -31,7 +31,7 @@ frame_read = tello.get_frame_read()
 
 def camera():
     #global node
-    cv_bridge = CvBridge()
+    """cv_bridge = CvBridge()
     publisher = node.create_publisher(Image, 'camera', 10)
     while True:
         img = frame_read.frame
@@ -66,7 +66,7 @@ def camera():
                 control(("0000010001003207").encode("utf-8"))
                 tello.land()
                 #time.sleep(3)
-                #exit(0)
+                #exit(0)"""
 
 def main(args=None):
     rclpy.init(args=args)

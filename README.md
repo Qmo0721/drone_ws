@@ -57,54 +57,7 @@ def uav_control():
         if key:  
             print("key is :", key)  
             if key == '1':  *# Takeoff*  
-                ctr_msg.data = "takeoff"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.takeoff()  
-            elif key == '2':  *# Land*  
-             ctr_msg.data = "land"  
-             ctr_publisher.publish(ctr_msg)  
-             tello.land()  
-            elif key == 'w':  *# Move forward*  
-                setto("<+00+10>")  
-                ctr_msg.data = "move_forward"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_forward(20)  
-            elif key == 's':  *# Move backward*  
-                setto("<+00-10>")  
-                ctr_msg.data = "move_back"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_back(20)  
-            elif key == 'a':  *# Move left*  
-                ctr_msg.data = "move_left"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_left(20)  
-            elif key == 'd':  *# Move right*  
-                ctr_msg.data = "move_right"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_right(20)  
-            elif key == 'e':  *# Rotate clockwise*  
-                ctr_msg.data = "rotate_clockwise"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.rotate_clockwise(10)  
-            elif key == 'q':  *# Rotate counter-clockwise*  
-                ctr_msg.data = "rotate_counter_clockwise"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.rotate_counter_clockwise(10)  
-            elif key == 'r':  *# Move up*  
-                ctr_msg.data = "move_up"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_up(20)  
-            elif key == 'f':  *# Move down*  
-                ctr_msg.data = "move_down"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_down(20)  
-            elif key == 'v':  *# Stop*  
-                setto("<+00+00>")  
-                ctr_msg.data = "stop"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.land()  
-                time.sleep(5)  
-                exit(0)  
+                ...
 
 def main(args=None):  
     global bluetooth  
@@ -183,26 +136,7 @@ def uav_control(msg):
         tello.takeoff()  
     elif msg.data == "land":  *# Land*  
         tello.land()  
-    elif msg.data == "move_forward":  *# Move forward*  
-        tello.move_forward(20)  
-    elif msg.data == "move_back":  *# Move backward*  
-        tello.move_back(20)  
-    elif msg.data == "move_left":  *# Move left*  
-        tello.move_left(20)  
-    elif msg.data == "move_right":  *# Move right*  
-        tello.move_right(20)  
-    elif msg.data == "rotate_clockwise":  *# Rotate clockwise*  
-        tello.rotate_clockwise(10)  
-    elif msg.data == "rotate_counter_clockwise":  *# Rotate counter-clockwise*  
-        tello.rotate_counter_clockwise(10)  
-    elif msg.data == "move_up":  *# Move up*  
-        tello.move_up(20)  
-    elif msg.data == "move_down":  *# Move down*  
-        tello.move_down(20)  
-    elif msg.data == "stop":  *# Stop*  
-        tello.land()  
-        time.sleep(5)  
-        exit(0)  
+    ...
 
 def main(args=None):  
     rclpy.init(args=args)  
@@ -335,54 +269,7 @@ def uav_control():
         if key:  
             print("key is :", key)  
             if key == '1':  *# Takeoff*  
-                ctr_msg.data = "takeoff"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.takeoff()  
-            elif key == '2':  *# Land*  
-             ctr_msg.data = "land"  
-             ctr_publisher.publish(ctr_msg)  
-             tello.land()  
-            elif key == 'w':  *# Move forward*  
-                control(("1010010001003207").encode("utf-8"))  
-                ctr_msg.data = "move_forward"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_forward(20)  
-            elif key == 's':  *# Move backward*  
-                control(("1010000100013207").encode("utf-8"))  
-                ctr_msg.data = "move_back"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_back(20)  
-            elif key == 'a':  *# Move left*  
-                ctr_msg.data = "move_left"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_left(20)  
-            elif key == 'd':  *# Move right*  
-                ctr_msg.data = "move_right"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_right(20)  
-            elif key == 'e':  *# Rotate clockwise*  
-                ctr_msg.data = "rotate_clockwise"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.rotate_clockwise(10)  
-            elif key == 'q':  *# Rotate counter-clockwise*  
-                ctr_msg.data = "rotate_counter_clockwise"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.rotate_counter_clockwise(10)  
-            elif key == 'r':  *# Move up*  
-                ctr_msg.data = "move_up"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_up(20)  
-            elif key == 'f':  *# Move down*  
-                ctr_msg.data = "move_down"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.move_down(20)  
-            elif key == 'v':  *# Stop*  
-                control(("0000010001003207").encode("utf-8"))  
-                ctr_msg.data = "stop"  
-                ctr_publisher.publish(ctr_msg)  
-                tello.land()  
-                time.sleep(5)  
-                exit(0)  
+                ...
 
 def main(args=None):  
     rclpy.init(args=args)  
@@ -458,26 +345,7 @@ def uav_control(msg):
         tello.takeoff()  
     elif msg.data == "land":  *# Land*  
         tello.land()  
-    elif msg.data == "move_forward":  *# Move forward*  
-        tello.move_forward(20)  
-    elif msg.data == "move_back":  *# Move backward*  
-        tello.move_back(20)  
-    elif msg.data == "move_left":  *# Move left*  
-        tello.move_left(20)  
-    elif msg.data == "move_right":  *# Move right*  
-        tello.move_right(20)  
-    elif msg.data == "rotate_clockwise":  *# Rotate clockwise*  
-        tello.rotate_clockwise(10)  
-    elif msg.data == "rotate_counter_clockwise":  *# Rotate counter-clockwise*  
-        tello.rotate_counter_clockwise(10)  
-    elif msg.data == "move_up":  *# Move up*  
-        tello.move_up(20)  
-    elif msg.data == "move_down":  *# Move down*  
-        tello.move_down(20)  
-    elif msg.data == "stop":  *# Stop*  
-        tello.land()  
-        time.sleep(5)  
-        exit(0)  
+    ...
 
 def main(args=None):  
     rclpy.init(args=args)  
@@ -677,28 +545,7 @@ def uav_control():
                 tello_takeoff = True  
             elif key == '2':  
                 swarm.land()  
-            elif key == 'w':  
-                swarm.move_forward(30)  
-            elif key == 's':  
-                swarm.move_back(30)  
-            elif key == 'a':  
-                swarm.move_left(30)  
-            elif key == 'd':  
-                swarm.move_right(30)  
-            elif key == 'e':  
-                swarm.rotate_clockwise(30)  
-            elif key == 'q':  
-                swarm.rotate_counter_clockwise(30)  
-            elif key == 'r':  
-                swarm.move_up(30)  
-            elif key == 'f':  
-                swarm.move_down(30)  
-            elif key == 'v':  
-                swarm.disable_mission_pads()  
-                swarm.land()  
-                swarm.end()  
-                time.sleep(5)  
-                exit(0)  
+            ...
 
         *# Fly around four points*  
         if tello_takeoff:  

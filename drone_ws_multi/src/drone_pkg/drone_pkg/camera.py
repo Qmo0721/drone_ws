@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 class CameraSubscriber(Node):
-    def __init__(self):
+    """def __init__(self):
         super().__init__('view')
         self.subscriber1 = self.create_subscription(CompressedImage, 'camera1', self.camera_callback1, 1)
         self.subscriber2 = self.create_subscription(CompressedImage, 'camera2', self.camera_callback2, 1)
@@ -26,7 +26,7 @@ class CameraSubscriber(Node):
         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         img = cv2.resize(img, (720, 480))
         cv2.imshow("Camera2", img)
-        cv2.waitKey(1)
+        cv2.waitKey(1)"""
 def main(args=None):
     rclpy.init(args=args)
     camera_subscriber = CameraSubscriber()
