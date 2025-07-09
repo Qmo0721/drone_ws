@@ -8,12 +8,12 @@ The RDK X3 Master and Slave are connected to two drones via WiFi, respectively. 
 
 In the Master control code, the captured image data is published to the `camera0` topic for display by other programs. When a keyboard key is pressed, messages are sent to the Slave via ROS2 over the local network and to the vehicle via Bluetooth, while simultaneously controlling the drone's movement. The Master control code is as follows:
 
-1.  import rclpy  
-2.  from rclpy.node import Node  
-3.  from sensor_msgs.msg import CompressedImage  
-4.  from std_msgs.msg import String  
-5.  from cv_bridge import CvBridge  
-6.  from djitellopy import Tello  
+import rclpy  
+from rclpy.node import Node  
+from sensor_msgs.msg import CompressedImage  
+from std_msgs.msg import String  
+from cv_bridge import CvBridge  
+from djitellopy import Tello  
 7.  import sys, select, termios, tty  
 8.  from threading import Thread  
 9.  import time  
