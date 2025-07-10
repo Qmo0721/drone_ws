@@ -1,6 +1,6 @@
 # Vehicle-Drone Coordination
 
-The RDK X3 Master and Slave are connected to two drones via WiFi, respectively. The Master connects to the vehicle's lower-level controller via Bluetooth or a USBCAN analyzer. The Master and Slave are connected via Ethernet. When the Master controls Drone 0 and the vehicle, it uses the ROS2 Foxy publish-subscribe mechanism, and the Slave subscribes to the messages published by the Master to control Drone 1.
+The RDK X5 Master and Slave are connected to two drones via WiFi, respectively. The Master connects to the vehicle's lower-level controller via Bluetooth or a USBCAN analyzer. The Master and Slave are connected via Ethernet. When the Master controls Drone 0 and the vehicle, it uses the TOGETHER ROS publish-subscribe mechanism, and the Slave subscribes to the messages published by the Master to control Drone 1.
 
 ## Bluetooth Vehicle Control
 
