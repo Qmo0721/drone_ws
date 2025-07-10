@@ -1,6 +1,6 @@
 # 车机协同
 
-RDK X3 Master和Slave分别通过WiFi连接两架无人机,Master通过蓝牙或者USBCAN分析仪连接车辆下位机。Master和Slave之间使用以太网连接,当Master控制无人机0和车辆时,使用ROS2 Foxy的消息发布和订阅机制,Slave订阅Master发布的消息后控制无人机1。
+RDK X5 Master和Slave分别通过WiFi连接两架无人机,Master通过蓝牙或者USBCAN分析仪连接车辆下位机。Master和Slave之间使用以太网连接,当Master控制无人机0和车辆时,使用TOGETHER ROS的消息发布和订阅机制,Slave订阅Master发布的消息后控制无人机1。
 
 ## 蓝牙控制车辆
 
